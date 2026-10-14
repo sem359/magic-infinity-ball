@@ -1,0 +1,27 @@
+MAGIC INFINITY BALL -- setup for gallery staff
+==============================================
+
+1. Plug the ball's USB-C cable into any USB wall charger (5V, 1A or more).
+   No computer or software is needed.
+
+2. The screen shows "Awakening..." for up to 15 seconds while it joins
+   WiFi, then "Shake Me!". It is ready.
+
+3. Visitors shake it. The first shake gives an answer immediately; shaking
+   again within 30 seconds makes the oracle escalate (these answers take a
+   few seconds -- the screen shows "Thinking...").
+
+4. If nobody touches it for 20 seconds it returns to "Shake Me!".
+
+If something seems wrong: unplug it, wait 5 seconds, plug it back in.
+
+If the WiFi is down, the ball still works -- it uses built-in answers
+instead of the AI. Visitors won't see an error.
+
+WiFi requirements (for the artist to arrange in advance):
+ - a 2.4 GHz network, either with a normal password or fully open
+ - NO login / "accept terms" web page (the device can't open one)
+ - if the network requires devices to be registered, the ball's MAC
+   address is printed in the Arduino Serial Monitor at startup
+ - the network name and password are programmed into the ball. If they
+   change, the ball needs re-uploading with the new details (see README.md)
